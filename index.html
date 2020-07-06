@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Быстрая сортировка</title>
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <div id="sort_description">
+        <h1>Алгоритм быстрой сортировки</h1>
+        <p>
+                    Алгоритм быстрая сортировка использует технику “разделяй и властвуй”, 
+                    чтобы получить те же преимущества, что и сортировка слиянием, но при этом не 
+                    использовать дополнительное место. Однако, ценой за это станет то, что список 
+                    может не поделиться пополам, приводя к уменьшению производительности.
+                    Сначала быстрая сортировка выбирает значение, которое называется опорным элементом. 
+                    Несмотря на то, что есть много способов выбрать его, мы будем просто использовать 
+                    первое значение в списке. Роль опорного элемента заключается в помощи при разбиении 
+                    списка. Позиция, на которой он окажется в итоговом сортированном списке, обычно 
+                    называемая точкой разбиения, будет использоваться для разделения списка при 
+                    последующих вызовах быстрой сортировки.
+        </p>
+            </div>
+    
+    <div id="sort_visual">
+
+       <p>
+        
+        <script type="text/javascript" src="assets/js/SortAnimate.js"></script>
+        
+        <script type="text/javascript" src="assets/js/quick.js"></script>
+        
+        
+    
+     
+    
+            <section class="main-content">
+            <div class="center">
+                <h2 id="sortText"></h2>
+                <div class="sort-animate-wrap" id="sortAnimateBox"></div>
+            
+                <div class="btn-group">
+                    
+                    <button class="btn btn-sm" type="button" onclick="playSortAnimate(sortMethodMap.quick)" >
+                      Сброс
+                    </button>
+                    
+              </div>
+            </div>
+            <script type="text/javascript" src="assets/js/fg.js"></script>
+           </p>
+    </div>
+</div>
+</body>
+</html>
